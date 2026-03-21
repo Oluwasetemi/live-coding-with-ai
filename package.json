@@ -7,6 +7,12 @@
     "build": "slidev build",
     "export": "slidev export --format pdf --output live-coding-with-ai.pdf"
   },
+  "devDependencies": {
+    "playwright-chromium": "latest"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["playwright-chromium"]
+  },
   "dependencies": {
     "@slidev/cli": "^51.0.0",
     "@slidev/theme-default": "latest",
