@@ -6,7 +6,7 @@ info: |
   Building Real Solutions with Terminal Agentic Tools
   Claude Code · Codex · OpenCode · and friends
 author: Oluwasetemi
-download: true
+download: false
 exportFilename: live-coding-with-ai
 class: text-center
 highlighter: shiki
