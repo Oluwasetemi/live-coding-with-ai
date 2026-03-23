@@ -29,7 +29,8 @@ make this code better
 ```
 
 **✅ Specific + Constrained**
-```
+
+```md
 refactor auth.ts to use async/await.
 Keep the existing function signatures.
 Run npm run typecheck when done.
@@ -37,20 +38,24 @@ Run npm run typecheck when done.
 
 </div>
 
-<div v-click>
+<div v-click style="max-height: 150px; overflow-y: auto;">
 
 **❌ Too broad**
-```
+
+```md 
 build me an e-commerce site
 ```
 
+
 **✅ Scoped + Verifiable**
-```
+
+```md
 add a /cart route to the Express API
 that accepts { productId, qty } and
 writes to the SQLite carts table.
 Add a test in tests/cart.test.ts.
 ```
+
 
 </div>
 

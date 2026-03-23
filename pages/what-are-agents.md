@@ -94,16 +94,16 @@ How agentic tools reason and act:
 
 ::right::
 
-<div class="mt-12 pl-6">
+<div class="mt-6 pl-6">
 
-```mermaid {scale: 0.7}
+```mermaid {scale: 0.5}
 flowchart TD
-    A[User Goal] --> B[Plan]
-    B --> C[Read Files]
-    C --> D[Edit / Run]
-    D --> E{Tests Pass?}
-    E -- Yes --> F[Done ✅]
-    E -- No --> B
+  A[User Goal] --> B[Plan]
+  B --> C[Read Files]
+  C --> D[Edit / Run]
+  D --> E{Tests Pass?}
+  E -- Yes --> F[Done ✅]
+  E -- No --> B
 ```
 
 </div>

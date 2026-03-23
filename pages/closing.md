@@ -53,7 +53,7 @@ transition: slide-up
 
 ```bash
 # 1. Install Claude Code
-npm install -g @anthropic-ai/claude-code
+curl -fsSL https://claude.ai/install.sh | bash
 
 # 2. Create a CLAUDE.md in your project
 echo "# My Project\n## Stack: ..." > CLAUDE.md
@@ -102,7 +102,14 @@ hideInToc: true
   </div>
 </div>
 
-<div class="mt-12 text-sm opacity-40">
+<div class="mt-8">
+  <a href="https://live-coding-with-ai-landing.vercel.app/" target="_blank"
+    class="inline-block px-4 py-2 rounded-lg border border-white/20 text-sm hover:bg-white/10 transition">
+    🚀 Live Tool built in this workshop →
+  </a>
+</div>
+
+<div class="mt-4 text-sm opacity-40">
   Slides built with <a href="https://sli.dev" class="underline">Slidev</a>
 </div>
 

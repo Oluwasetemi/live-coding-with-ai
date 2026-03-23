@@ -16,7 +16,7 @@ layout: default
 transition: slide-up
 ---
 
-# OpenAI Codex CLI
+# <img src="/codex.svg" alt="Codex" class="inline h-8 w-8 mr-2 align-middle" /> OpenAI Codex CLI
 
 OpenAI's terminal agent — multimodal and sandboxed.
 

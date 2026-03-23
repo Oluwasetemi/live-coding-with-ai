@@ -7,6 +7,7 @@ info: |
   Claude Code · Codex · OpenCode · and friends
 author: Oluwasetemi
 download: false
+selectable: true
 exportFilename: live-coding-with-ai
 class: text-center
 highlighter: shiki
